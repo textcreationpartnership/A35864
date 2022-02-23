@@ -1,0 +1,320 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A dialogue between a Quaker and his neighbour in Hertford, about the murder of Mrs. Sarah Stout</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1699</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35864</idno>
+            <idno type="STC">Wing D1299</idno>
+            <idno type="STC">ESTC R213239</idno>
+            <idno type="EEBO-CITATION">99825697</idno>
+            <idno type="PROQUEST">99825697</idno>
+            <idno type="VID">30083</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35864)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 30083)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1792:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A dialogue between a Quaker and his neighbour in Hertford, about the murder of Mrs. Sarah Stout</title>
+               </titleStmt>
+               <extent>1 sheet ([2] p.)   </extent>
+               <publicationStmt>
+                  <publisher>printed for the author, and sold by the book-sellers of London and Westminster,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1699]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imprint from colophon.</note>
+                  <note>Anonymous argument, in the form of a dialogue, that seeks to demonstrate that Stout did not commit suicide as some alledged, but was murdered. Includes the report of those who conducted the autopsy.</note>
+                  <note>Reproductions of the originals in the Burney Collection of the British Library and the Guildhall Library, London.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Stout, Sarah, d. 1699 --  Early works to 1800.</term>
+               <term>Society of Friends --  Apologetic works --  Early works to 1800.</term>
+               <term>Suicide victims --  England --  Early works to 1800.</term>
+               <term>Murder --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-10</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2012-10</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:30083:1" rendition="simple:additions"/>
+            <head>A DIALOGUE Between a Quaker and his Neighbour in HERTFORD, about the MURDER of Mrs. Sarah Stout.</head>
+            <sp>
+               <speaker>Quaker.</speaker>
+               <p>THee art an early man to day, methinks Neighbour, to have been abroad, and coming back already.</p>
+            </sp>
+            <sp>
+               <speaker>Neighb.</speaker>
+               <p>I muſt be ſo now; I have been to ſee my folks at work in the field; for he that will have buſineſs go forward, muſt be both at the begin<g ref="char:EOLhyphen"/>ning and end of it himſelf, or elſe it wo'nt do: And the Weather of late has been pretty catching, which makes me willing to improve my time as well as I can; and according to the antient Proverb, <hi>To make Hay while the Sun ſhines.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Thou art in the right on't, and I commend thee for thy induſtry: well, wilt come in, and ſmoke a pipe of Tobacco?</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>I don't care if I do; for now I have ſet my folks to work, I am a little at leiſure; beſides I have a mind to talk with you.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>With all my heart, Neighbour: Well, what is it thou wouldſt talk with me about?</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>About! Why, I wou'd ask you, What's the beſt news? for I know you muſt hear it, if there be any, your buſineſs calls you ſo much abroad.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Why truly Neighbour, as to news, I know none; for tho' I can't, as thee ſays, but hear a great deal, yet I ſeldom regard it; for, there is ſcarce one report in twenty, that is to be credited.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>Nay, that's true enough: But what I intended was, What do you hear about the Tryal of the Gentlemen for the murder of Mrs. <hi>Sarah Stout?</hi> It makes a great noiſe in the world, I aſſure you: I ſuppoſe you have heard it.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>No, I didn't; for I was out of Town then, or elſe I believe I ſhou'd. But I have read the Printed Account of it, which I ſuppoſe is truth, becauſe it is atteſted by the Judge.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>Yes, ſo it is, for I have read the Book, and heard the Tryal from the beginning to the end. Well, ſince you have read it, what do you ſay to that Tryal?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Why, I ſay, the perſons indicted for that Murder, were every one acquitted.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>That's true enough every body knows: But do you think they were acquitted fairly, or not?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>'Tis none of my place to cenſure the proceedings of the King's Courts of Juſtice; I believe the King deſires Juſtice may be impartially ad<g ref="char:EOLhyphen"/>miniſtred, and I believe to that end the King makes choice of the beſt Judges. But after all, to be plain with thee, I am of an Opinion <hi>Sarah Stout</hi> was murder'd.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>If ſhe murder'd her ſelf, ſhe was murder'd; ſo that your words are equivocal: Do you think ſhe was murder'd by the Gentlemen that were try'd for it?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Wou'dſt have me to condemn thoſe whom the Law has acquitted? Or, is't not poſſible ſhe may be murder'd, and yet not murder'd by them? And as to her murdering her ſelf, I believe nothing of it.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>That ſhe was found dead in the water, that's plain; and if ſhe did not throw her ſelf in, ſhe was thrown in by ſome body elſe: But there's no ſuch thing appears, and therefore I believe ſhe drowned her ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>What reaſon haſt thee to think ſo?</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>Reaſon enough: For firſt, That ſhe was not murder'd for Mo<g ref="char:EOLhyphen"/>ney, appears plainly, becauſe there was ſix Pounds found in her Pocket when ſhe was taken up out of the water; and therefore it was not done by Thieves or Robbers; for they wou'd have taken away her Money at leaſt, if they had not ſtript her too. Nor did it appear upon the Tryal, that Mr. <hi>C.</hi> had any Bonds or Mortgages of hers in his hands, by which he might make any advantage: Nor had he got her with Child, by which any ſhame might have been prevented. And therefore, ſince he cou'd have no intereſt in it, why ſhou'd it be ſuppos'd he did it at all? Nay, there had kindneſs paſt between 'em that day, and in all probability might have been more. We don't hear of any quarrel between 'em, that might give him any diſtaſte, or provoke him to ſuch a barbarous villany: And to think that a Gentleman ſhould murder a young woman that had a kindneſs for him, meerly for mur<g ref="char:EOLhyphen"/>der's ſake, appears to me a very unreaſonable thing.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Thou ſeem'ſt to imply, I think, that <hi>Sarah Stout</hi> was murder'd by <hi>S. C.</hi> and <hi>I</hi> have already told thee, that <hi>I</hi> have nothing to ſay, either to him, or the others that were indicted for her murder, for the Law has ac<g ref="char:EOLhyphen"/>quitted them; or otherwiſe <hi>I</hi> cou'd eaſily anſwer all that thou haſt ſaid: <hi>I</hi> cou'd tell thee, That he might have an intereſt in her Death, tho' it did not appear in Court; that ſome men are ſo tenacious of receiving an affront, that many have been kill'd for giving it. Nay, the very kindneſſes that ſome perſons have done, has been the occaſion of their death; and the refuſing to do ſuch kindneſſes as have been deſir'd of them, has procur'd the death of others: That there might be ſomething deſir'd of <hi>Sarah,</hi> that ſhe was not wil<g ref="char:EOLhyphen"/>ling to grant, is what might be, tho' ſhe did not think it proper to make any one acquainted with it; and that ſuch kindneſs being refus'd, might be a ſufficient ground of revenge, to ſuch perſons as made no conſcience of what they did, (for none but ſuch perſons cou'd be guilty of ſo barbarous a crime. Now it appears by the Tryal, that one of the perſons indicted has pretended Love to her, which ſhe refus'd; What if he had ſtomach'd that refuſal of hers to that degree, that he was reſolv'd to be reveng'd of her for it? Does not this appear rational enough? And, does not the diſ<g ref="char:EOLhyphen"/>courſe of the perſons at the <hi>Inn,</hi> at the very time when either this murder was perpetrated, or very near it, ſeem to countenance this? Why elſe ſhould one of them ſay, <hi>Her buſineſs was done;</hi> and, <hi>that he wou'd paſs his word, her courting dayes were over?</hi> And, this to be ſpoken by pretended ſtrangers, that very night ſhe was murder'd, was enough to have made it ſuſpitious to me: And to confute what thou haſt aſſerted, that there cou'd be no intereſt in it; it being plain that there might be (<hi>I</hi> don't ſay there was) the intereſt of ſerving a friend, which is counted by ſome (tho' in as bad a cauſe as this) a piece of generoſity.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>
+                  <hi>I</hi> confeſs what you urge, has more weight in it, than I at firſt imagin'd: But tho' <hi>I</hi> think this was ſworn, yet it was afterwards con<g ref="char:EOLhyphen"/>futed by ſeveral witneſſes; which <hi>I</hi> think appears by the Tryal Printed at large.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Had that been done, it would have given great ſatisfaction both to me and ſeveral more, but all that ever I could find of it in the Prin<g ref="char:EOLhyphen"/>ted Tryal (for <hi>I</hi> have already told thee <hi>I</hi> didn't hear it) is, that the perſons charged with it, abſolutely deny it; which no doubt they would do, had they been never ſo guilty. There was two witneſſes poſitive to the very words, and againſt this, they have nothing to ſay, but that they poſitively deny it; and yet are forc'd to acknowledge, there was ſome diſ<g ref="char:EOLhyphen"/>courſe of <hi>Sarah Stout;</hi> but ſo far from what the witneſſes depos'd, that it was not poſſible they ſhould ſo miſtake 'em. And thee may'ſt likewiſe obſerve, That the witneſſes not only depoſed this, but that the trouble that was upon their ſpirits, by reaſon of theſe words, (after they had heard of <hi>Sarah Stout</hi>'s death) was ſo great, that they could not reſt till they had reveal'd it: For <hi>Martha Gurry</hi> depoſes, <hi>That ſhe was ſo trou<g ref="char:EOLhyphen"/>bled in mind ſhe could not reſt, night nor day: And that ſhe told her Hus<g ref="char:EOLhyphen"/>band, if he would not tell of it,</hi> (that is, if he would not diſcover thoſe ſuſpicious words ſpoken by thoſe perſons in their houſe the night before <hi>Sarah</hi>'s death) <hi>ſhe would tell of it her ſelf, for ſhe was not able to live.</hi> So that it appears to be only love to Truth and Juſtice, that put <hi>Gurry</hi> and his wife upon diſcovering theſe words, and not any malice or prejudice; for their intereſt lay on the contrary ſide: They might have expected thoſe men to have been their gueſts again, had they not diſclos'd this; which now they could not expect: And therefore <hi>I</hi> do not doubt at all, but what they depoſed was the truth. Which, <hi>I</hi> muſt tell thee, looks ve<g ref="char:EOLhyphen"/>ry ſuſpiciouſly in my judgment.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>This does indeed bear a little hard upon 'em; but yet <hi>I</hi> think <hi>I</hi> have ſomething to offer, that will take off the force of that you have ſaid, and that is this, That theſe Gentlemen had ſeveral perſons of very good worth and quality appear'd in their behalf, and declar'd 'em to be men of an unſpotted Reputation: One ſays, <hi>He believes five thouſand pounds wou'd not tempt one of 'em to do ſuch a fact.</hi> Another ſays, <hi>He knew him ever ſince he was two years old, and never knew him but a civiliz'd man, given to no debauchery.</hi> Another ſays, <hi>He has known him twenty years, that he has a general good character among his neighbours, for a man fair in his practice, an honeſt man, and a man of a good converſation.</hi> And then, as to another of 'em, a perſon of quality teſtifies, not only that <hi>He was always reckon'd an honeſt man in his practice, but has the general character of a good natur'd man; one well provided for by his father, has a good eſtate, and is in a good place, and in good practice;</hi> and conſequently not like to do ſuch an action. Another perſon of quality teſtifies, <hi>He has always behav'd himſelf well, and has the character of an honeſt gentleman.</hi> Another teſti<g ref="char:EOLhyphen"/>fies both as to him and Mr. <hi>M.</hi> that <hi>He believes they would not have been guilty of ſuch an ill thing, to have gain'd the County.</hi> And as to the other, ſeveral Gentlemen give the like character of him, and ſay, <hi>They believe money could not tempt him to do any act of that kind.</hi> But what <hi>I</hi> have fur<g ref="char:EOLhyphen"/>ther to offer, is that which <hi>I</hi> think is more convincing; and that is, That it is not at all probable that Gentlemen that were not either mad, or drunk, or both, ſhould be ſo fooliſh and imprudent, as to diſcourſe publickly in the preſence of ſeveral perſons, after that rate that is ſworn a<g ref="char:EOLhyphen"/>gainſt theſe, if they either had, or deſign'd to have, a hand in ſuch a thing: Cou'd they poſſibly abandon themſelves to ſo much inconſidera<g ref="char:EOLhyphen"/>tion, as not to think that ſuch diſcourſes might be remembred to their pre<g ref="char:EOLhyphen"/>judice, and tend to the diſcovery of themſelves as the murderers? Theſe muſt be granted to be ſenſible men, well skill'd in the Law; and there<g ref="char:EOLhyphen"/>fore well knew the danger ſuch diſcourſes would expoſe them to; and knowing all this, it would argue them to be guilty of the higheſt degree of madneſs and folly, to talk at that rate.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>I have already told thee, and do ſo again, That I have nothing to ſay againſt theſe men; the Law has acquitted them, and therefore I have nothing to do to condemn them; I only tell thee my private ſen<g ref="char:EOLhyphen"/>timents, and what <hi>I</hi> urge, is more for diſcourſe ſake, than any thing elſe: Tho', to be plain with thee, <hi>I</hi> ſee no ſuch great matter in what thou haſt alledg'd in their behalf: And, had <hi>I</hi> been of Council for the K. <hi>I</hi> would have anſwer'd thee thus: <hi>I</hi> have nothing to object againſt all that theſe perſons have teſtified in behalf of the priſoners; <hi>I</hi> am willing to grant that they ſpeak according to their knowledge, and what they think: But what does all that they have ſaid amount to more than this, That the priſoners have always carried it very fair to the world, and when they committed this fact for which they are indicted, they did not acquaint theſe perſons with it? But there's none of all theſe Gentle<g ref="char:EOLhyphen"/>men can ſay they are not guilty of this fact. 'Tis true, they don't be<g ref="char:EOLhyphen"/>lieve it, and they believe money would not tempt 'em to it; no, not tho' they might gain the whole County: But, what then? it does not follow for all that, but that they might do it: There might be other motives to tempt them to it, beſides that of money. There are men in the world that will poſt-pone all other conſiderations to that of ſerving their friend: And probably that might be the caſe here: Suppoſe a p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rſon courts one for her fortune; he receives a denial, and upon that meditates
+<pb facs="tcp:30083:2"/> revenge: <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ens his thoughts to two or three <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>riends, and they promiſe to aſſiſt him, out of a principle of generoſity (as they think) to ſerve their friend, which no money could have oblig'd 'em to do: <hi>I</hi> have heard of ſuch things that have been done; and wherein even greater hazards have been run to ſerve a Friend, and why not in this caſe? There is a fa<g ref="char:EOLhyphen"/>mous inſtance of this in K. <hi>Charles</hi> the Second's time: One <hi>Maſon</hi> was accus'd of having a hand in a Plot againſt the Government, and was order'd to be carried down to <hi>York,</hi> in order to be try'd, and commit<g ref="char:EOLhyphen"/>ted to the charge of eight Life-guard men to carry him down; but one <hi>Blood,</hi> and three of his companions, who had a particular kindneſs for <hi>Maſon,</hi> went after the Life-guard-men, kill'd two or three of them, and reſcued the priſoner. Here the hazard was much greater than in the caſe before us, (which might be much eaſier effected, and better con<g ref="char:EOLhyphen"/>cealed) and yet the thing was undertaken and effected, out of love to their friend. And, as to what thee think'ſt is ſo unanſwerable, to wit, That unleſs they were mad, or drunk, or both, they would never have expos'd themſelves by diſcourſing as they did ſo publickly; to that I have a ſufficient anſwer; Firſt, That they did ſo diſcourſe, there is the poſitive teſtimony of two perſons upon Oath Secondly, One of the priſoners themſelves does in part acknowledge it; for he ſays, in page 41 of the printed Tryal, <hi>Poſſibly I might ſay theſe words, My friend may be in with her;</hi> but ſoftens it with ſaying, <hi>It was in jocular converſation.</hi> But Thirdly, Notwithſtanding their denying it, and making their publick diſ<g ref="char:EOLhyphen"/>courſing thus, a plea for their innocence (which by the way, might be one reaſon of their talking ſo publickly) yet the Judge in his charge to the Jury, ſeems not to make the leaſt queſtion of the words being ſpoken, as <hi>I</hi> think in ſeed he had no reaſon, and tells the Jury, <hi>They talked at a ſtrange rate;</hi> and that <hi>they were very ſtrange expreſſions;</hi> and ſo leaves it to the Jury; which was all that he could do. So that <hi>I</hi> do not find, that thoſe words teſtified by <hi>Gurry,</hi> or his wiſe, to wit; <hi>That her buſineſs was done. That there was an end of her courting days.</hi> And, <hi>That a friend of theirs was even with her-by this time.</hi> Were at all invalidated: And I am ſure thee and I muſt own, that (as the Judge ſaid) <hi>They were very ſtrange expreſſions,</hi> conſidering the time when they were ſpoken.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>But does it not plainly appear that ſhe was melancholly? And, might ſhe not in a melancholly humour, being under ſome great tempta<g ref="char:EOLhyphen"/>tion, fang h<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r ſelf into the water, and ſo be drowned?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>I cannot deny, indeed, but that ſuch a thing might be; but there is a great deal of difference between What might be, and What was? For no ſuch thing was prov'd: It did not appear ſhe was melancholly, by her ſending for <hi>S. C.</hi> to dinner; nor inviting him afterwards to ſupper; nor by the care ſhe took to have a fire in his chamber, and his bed well warm'd. Theſe did not appear to be the actions of a melancholly or diſtracted perſon. And as to her being drowned, that neither is not ſo evident; for it appears that there was no water in her body; and it is a common opinion, that when perſons are thrown into the water dead, they won't ſink, as it ſeems ſhe did not: But ſeeing there are ſuch diverſities of opinions in that caſe, I will not be poſitive therein.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>But I think nothing cou'd b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> made out more clearly, than that Mrs. <hi>Sarah</hi> was in love with Mr. <hi>C.</hi> and would willingly have co ha<g ref="char:EOLhyphen"/>bitted and have lain with him that night: but he refuſing to comply with her, and going to hi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> lodging at Mr. <hi>Barefoot</hi>'s, ſhe went and drown<g ref="char:EOLhyphen"/>ned her ſelf. So that here is not only her melancholly proved, but the cauſe of it likewiſe: And I have heard, that love melancholly is the moſt dangerous.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>
+                  <hi>I</hi> do not ſee this ſo clearly made out, as thou ſeemeſt to ima<g ref="char:EOLhyphen"/>gine. <hi>Sarah</hi> was a young woman, and of a good fortune; and if ſhe lik'd not to have had any of our Friends, there were Husbands enough to be had, without courting a married man: And yet, ev'n if ſhe had been ſo far left to her ſelf, as to have done that, <hi>I</hi> have heard that per<g ref="char:EOLhyphen"/>ſon has had a greater kindneſs for the Female Sex, than to let any of 'em make away themſelves for want of giving 'em a nights lodging. And, to do him juſtice, it does not appear to me, that he treated her at that rate as to cauſe her to deſpair of obtaining ſuch a kindneſs from him: If indeed he had told her (as <hi>I</hi> think if the caſe had been ſo, he might very well have done) that he could not but admire at her impudence to de<g ref="char:EOLhyphen"/>ſire ſuch a thing of him; that ſhe made herſelf thereby a ſhame to her Sex, a ſcandal to her Profeſſion, and a reproach to her Relations; that there were other men enough to ſatisfy her Luſt; that for his own part, he was a married man, and upon that account, could not poſſibly gratify her inclinations. Or, if he had ſaid to her, as another good man did, on the like occaſion, <hi>How ſhall I do this gre<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e wickedneſs, and ſin a<g ref="char:EOLhyphen"/>gainſt God?</hi> And ſo had exhorted her to mortify thoſe unruly affecti<g ref="char:EOLhyphen"/>ons, that could not but iſſue in her eternal ruin, if her deſires ſhould be gratified; and that however they might think to conceal it from the eye of the World, yet that their wickedneſs wou'd be open to the omniſcient eye of the Divine Being. Had he indeed taken thi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> method, <hi>Sarah</hi> might have had ſome reaſon to deſpair of obtaining her ends of him, (if any ſuch ends ſhe had.) But for ought appears to me, the caſe was quite oth<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rwiſe; and <hi>Sarah</hi> had more reaſon to hope, than to deſpair, by thoſe Topicks that were us'd to her that night: For, the Objections were only That <hi>it was an a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>cident that had obliged him to take up his lodg<g ref="char:EOLhyphen"/>ings in another place;</hi> That <hi>the family where he was ſo oblig'd to lye, was ſitting up for him;</hi> That <hi>his ſtaying at her houſe under theſe circumſtances, would in probability, provoke the cenſure of the Town and Country;</hi> That <hi>therefore</hi> (only) <hi>he could not ſtay, whatever his inclination otherwiſe might be.</hi> Now I appeal to thee, whether there be<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>any thing in theſe Objecti<g ref="char:EOLhyphen"/>ons that migh cauſe <hi>Sarah</hi> to deſpair, if ſhe had any ſuch deſires of ob<g ref="char:EOLhyphen"/>taining them: Here was no poſitive denyal, no mention of the unlaw<g ref="char:EOLhyphen"/>fulneſs of it; but only <hi>there happened an accident which rendered it not ſo convenient that time, as it might be another.</hi> Now, had <hi>Sarah</hi> be in all that ſhe was indeavoured to be repreſented, what occaſion had ſhe to deſ<g ref="char:EOLhyphen"/>ſpair of enjoying what, it may be, ſhe deſir'd? For my part, according as this perſon treated her, I ſee none. And therefore, if ſhe did make away her ſelf (which I can by no means think) out of a deſpair of not obtaining what ſhe deſir'd of him; I muſt do the man that juſtice (as I have already told thee) to declare, That in my opinion he was no occaſion of it.</p>
+            </sp>
+            <sp>
+               <speaker>Neighb.</speaker>
+               <p>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ut <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nce you beli<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ve that the Gentleman gave her no occa<g ref="char:EOLhyphen"/>ſion to deſpair of obtaining her ends from him; and conſequently that ſhe had no reaſon to make away her ſelf, which you believe ſhe did not; I ſay then, what reaſon can you have to think, that he ſhould murder her, who, as you ſuppoſe, gave her ſo much hopes of obtaining her deſires another time?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>I know not what reaſon thee haſt to ask me ſuch a queſtion, for I never ſaid that I thought he murder'd her, nor any other of the per<g ref="char:EOLhyphen"/>ſons indicted for it. I do indeed believe ſhe did not murder her ſelf, becauſe <hi>I</hi> ſee no reaſon <hi>I</hi> have to think ſo; and <hi>I</hi> have ſhew'd thee that thoſe reaſons alledged, are not ſufficient to cauſe me to change my opi<g ref="char:EOLhyphen"/>nion. And <hi>I</hi> affirm there are ſome circumſtances relating to the perſons indicted, that to me look very ſuſpitious. There is one thing that <hi>I</hi> think wou'd give a great deal of light into the buſineſs, which <hi>I</hi> indeed wonder'd was never enquir'd into neither by the Judges, the King's Council, nor the Grand Jury. But yet when <hi>I</hi> conſider how long that Tryal laſted, and what great variety of Evidence there was, it is no won<g ref="char:EOLhyphen"/>der at all that ſomething might be omitted; but that which <hi>I</hi> intended was this, Thee may'ſt remember, (for thou it ſeemeſt was at the Try<g ref="char:EOLhyphen"/>al) that <hi>Sarah Walker</hi> depoſes, That when ſhe went up ſtairs, to warm the bed, ſhe left her miſtriſs and <hi>S. C.</hi> in the room together; and a<g ref="char:EOLhyphen"/>bot a quarter of an hour after, ſhe heard the door ſhut, and when ſhe came down, there was neither of them in the houſe. Now, methinks it would have been neceſſary to have enquir'd, Whether <hi>Sarah</hi> went out with him; and if ſo, how far, and where they parted? For <hi>Sarah Wal<g ref="char:EOLhyphen"/>ker</hi> ſays nothing of hearing the door ſhut, but once; and then ſhe thought he was going with his Letter. <hi>I</hi> think a fuller account of his leaving her, might have given much more light into the matter. But being omitted at the Tryal, <hi>I</hi> only mention this, as my particular thoughts. However <hi>I</hi> cannot be ſatisfy'd at all about the Tryal, more eſpecially ſince <hi>I</hi> have read the <hi>Hertford</hi> Letter newly come out; at the latter end of which, the Author, after having Learnedly handled the point, cloſes with his Sentiments of her death, and two ſtrange remarks in the Tryal. <hi>viz.</hi>
+               </p>
+               <p>If this Gentlewoman was not Drowned, as the Doctors and Surgeons for the Priſoners ſeem to inſinuate, the Query then will be, How ſhe came to her End? with ſubmiſſion to better Judgments, <hi>I</hi> ſhall here offer my private Sentiments concerning it: <hi>I</hi> am induced to believe, ſhe was knocked down with a Blow on her left Ear, from the large Settlement of Blood there, which, as Mrs. <hi>Kimpſon</hi> Swears, was as much as her Hand could cover, and more; after ſhe was fell'd to the Ground by the Blow, it is probable, with the Gripe of a ſtrong Hand, ſhe was Throtled, from the Stagnation of Blood on both ſides of her Neck, under her Ears, which Mr. <hi>John Dimſdale</hi> Jun. Swears there was; and from the Settlement of Blood on her Breſt, <hi>I</hi> am inclined to believe, That the Per<g ref="char:EOLhyphen"/>ſon that Throtled her, to ſupport his Hand, that he might Gripe the ſtronger, reſted his Arm on her Breſt, which occaſioned the Stagnation there. <hi>His re<g ref="char:EOLhyphen"/>marks are,</hi> How Mr. <hi>Stephens</hi> was taken with a ſtrange Fit, juſt after the Petty-Jury went out, which diſturbed the whole Court; and how a <hi>Wine-Cooper</hi> in <hi>Southwark,</hi> who came down as an Evidence for the Priſoners, fell into a ſort of Diſtraction; and all the time of the Trial was mightily diſcompoſed in his Mind, ſo that he was fain to be tyed in Bed, yet would often ask how the Trial went, and whether they were like to be cleared; and would often tell the People about him, that he had done a very bad thing, but would not confeſs what, tho' often urged to it.</p>
+            </sp>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>The Tryal laſted many hours, and many Witneſſes were exa<g ref="char:EOLhyphen"/>mined; and both Judge and Jury were ſo fatiegu'd with the tediouſneſs thereof, that it was impoſſible to think of every thing. But it did ap<g ref="char:EOLhyphen"/>pear plainly, tho her Body had no violence offer'd to it; that it ſunk in the water as low as the Stakes would give it leave; that Mr. <hi>C.—r</hi> went immediately out of the houſe to the <hi>Glove</hi> and <hi>Dolphin,</hi> and from thence to his own lodgings; from whence he went out no more that night: And, by comparing all what the Witneſſes ſaid, as to point of time, it was impoſſible he ſhould do it; and what was impoſſible to be done, we may be ſure was not done: So that <hi>I</hi> think the Jury brought in a very honeſt Verdict, eſpecially as to him. As to the other Gen<g ref="char:EOLhyphen"/>tlemen, they appear all to be of fair reputations, and <hi>I</hi> could heartily wiſh, no ſuch words had been ſpoken; and then <hi>I</hi> think, that they nei<g ref="char:EOLhyphen"/>ther could not have been under the leaſt ſuſpition of guilt, tho' <hi>I</hi> am ſtill of the mind they are all innocent.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>For my part, <hi>I</hi> do'nt accuſe 'em; and for their own ſakes wiſh they may be ſo. But tho' they be all as truly innocent as the has pro<g ref="char:EOLhyphen"/>nounc'd them; why may not <hi>Sarah</hi> have been murdered by ſome other perſons, and from ſome other motives that we know nothing of? For ſhe had not without reaſon, by her ſober and blameleſs converſation, acquir'd the reputation of a vertuous and modeſt young woman from our whole Town; and <hi>I</hi> appeal to thee, whether ever thou ſaweſt any one action, by which ſhe might forfeit it; or that might lay any imputation upon her? And not only accounted vertuous, but prov'd ſhe dy'd ſo by the following Certificate.</p>
+            </sp>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="text">
+                        <head>
+                           <hi>Hertford. April,</hi> 28. 1699.</head>
+                        <p>WE whoſe Names are here under-written, having examined the Body of Mrs. <hi>Sarah Stout,</hi> Deceaſed, do find the <hi>Uterus</hi> perfectly Free and Empty, and of the natural Figure and Magnitude, as uſually in Virgins. We found no <hi>Water</hi> in the <hi>Stomach, Inteſtines, Abdomen, Lungs</hi> or <hi>Cavity</hi> of the <hi>Thorax.</hi>
+                        </p>
+                        <closer>
+                           <signed>
+                              <list>
+                                 <item>John Dimſdale, <hi>Sen.</hi>
+                                 </item>
+                                 <item>Robert Dimſdale.</item>
+                                 <item>John Dimſdale, <hi>Jun.</hi>
+                                 </item>
+                                 <item>William Coatſworth.</item>
+                                 <item>Samuel Camlin.</item>
+                                 <item>Daniel Phillips.</item>
+                              </list>
+                           </signed>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <sp>
+               <speaker>Neigh.</speaker>
+               <p>For my part, <hi>I</hi> muſt do her memory that juſtice, however ſhe came by her death, as to declare <hi>I</hi> never knew her guilty of any unbe<g ref="char:EOLhyphen"/>coming action, though <hi>I</hi> have known her from her child-hood: She was not indeed ſo brisk and airy as other young Women are; but that <hi>I</hi> always attributed to her being one of your opinion.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Well, Neighbour, <hi>I</hi> have told thee my Sentiments of it: And tho' <hi>I</hi> neither do, nor can accuſe any; yet <hi>I</hi> believe ſhe never made away with her ſelf: But by what means ſhe came by her Death, we muſt leave to Him, who in His due time, will bring to Light all the ſudden Works of Darkneſs; with every ſecret thing, whether it be Good, or whether it be Evil.</p>
+            </sp>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>LONDON,</hi> Printed for the Author, and Sold by the Book-ſellers of <hi>London</hi> and <hi>Weſtminſter.</hi> 1699.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
